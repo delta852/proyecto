@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TM.Inicio">
+    <columnConstraints>
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+    </rowConstraints>
+    <children>
+        <Pane prefHeight="611.0" prefWidth="764.0" style="-fx-background-color: #1E90FF;">
+            <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="600.0" layoutY="275.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@cashicon.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="170.0" fitWidth="187.0" layoutX="397.0" layoutY="259.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@caricon.png" />
+               </image>
+            </ImageView>
+                <Text layoutX="130.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¿Comprar, vender, intercambiar o financiar?" textAlignment="CENTER">
+                    <font>
+                        <Font name="System Bold Italic" size="22.0" />
+                    </font>
+                </Text>
+                <Text layoutX="256.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¡Somos los mejores!" textAlignment="CENTER">
+                    <font>
+                        <Font name="Berlin Sans FB" size="26.0" />
+                    </font>
+                </Text>
+                <Button fx:id="btnverautos" layoutX="401.0" layoutY="259.0" mnemonicParsing="false" onAction="#VerAutos" opacity="0.0" prefHeight="170.0" prefWidth="162.0" text="Ver autos">
+               <font>
+                  <Font name="System Bold Italic" size="23.0" />
+               </font></Button>
+            <Pane layoutY="9.0" prefHeight="91.0" prefWidth="764.0" style="-fx-background-color: #708090;">
+               <children>
+                  <ImageView fitHeight="69.0" fitWidth="141.0" layoutX="1.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@TypeR.png" />
+                     </image>
+                  </ImageView>
+                  <Text fill="RED" layoutX="111.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Trend Motors">
+                     <font>
+                        <Font name="System Bold Italic" size="32.0" />
+                     </font>
+                  </Text>
+                      <Button layoutX="688.0" layoutY="26.0" mnemonicParsing="false" onAction="#Salir" text="Salir">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Button>
+                      <Button fx:id="btncontact" layoutX="549.0" layoutY="26.0" mnemonicParsing="false" onAction="#Contactenos" text="Contáctenos">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </Pane>
+            <Text layoutX="129.0" layoutY="334.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¡Bienvenido!">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="8.0" layoutY="367.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A la hora de comprar, vender, intercambiar o financiar.." textAlignment="JUSTIFY">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="8.0" layoutY="386.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Somos tu mejor opción! +150 vehículos en inventario." textAlignment="JUSTIFY">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="8.0" layoutY="407.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Autos garantizados y financiables." textAlignment="JUSTIFY">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="8.0" layoutY="437.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WE SPEAK ENGLISH when its time to buy, sell, trade-in," textAlignment="JUSTIFY">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="9.0" layoutY="455.0" strokeType="OUTSIDE" strokeWidth="0.0" text="or finance a used car in Panama" textAlignment="JUSTIFY">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="436.0" layoutY="455.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ver Autos">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="612.0" layoutY="446.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ver Planes">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="574.0" layoutY="466.0" strokeType="OUTSIDE" strokeWidth="0.0" text="De Financiamiento">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Text>
+            <Button fx:id="btnverf" layoutX="594.0" layoutY="291.0" mnemonicParsing="false" onAction="#VerF" opacity="0.0" prefHeight="125.0" prefWidth="162.0" text="Ver F">
+               <font>
+                  <Font name="System Bold Italic" size="23.0" />
+               </font>
+            </Button>
+            </children>
+        </Pane>
+    </children>
+</GridPane>

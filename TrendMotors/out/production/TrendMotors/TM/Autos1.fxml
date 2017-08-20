@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TM.Autos1">
+    <columnConstraints>
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+    </rowConstraints>
+    <children>
+        <Pane prefHeight="611.0" prefWidth="764.0" style="-fx-background-color: #1E90FF;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="283.0" layoutY="374.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@N70118A_3_large.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="536.0" layoutY="374.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@37101A_3_large.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="29.0" layoutY="374.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@KC1854_5_large.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="284.0" layoutY="174.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@H0056_1_large.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="537.0" layoutY="174.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@14438294_3_large.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="30.0" layoutY="174.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@37114A_3_large.jpg" />
+               </image>
+            </ImageView>
+            <Text layoutX="548.0" layoutY="544.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Motor 1.8L, Automático">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text layoutX="553.0" layoutY="522.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nissan Sentra S 2015">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <Text layoutX="312.0" layoutY="544.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Motor 2.0L, Manual">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text layoutX="285.0" layoutY="523.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mitsubishi Lancer EX 2013">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <Text layoutX="47.0" layoutY="543.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Motor 1.6L, Automático">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text layoutX="554.0" layoutY="341.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Motor 1.8L, Automático">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text layoutX="560.0" layoutY="322.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Honda Civic EX 2014">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <Text layoutX="70.0" layoutY="522.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kia Rio EX 2013">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <Text layoutX="312.0" layoutY="342.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Motor 2.4L, Manual">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text layoutX="304.0" layoutY="323.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kia Sportage LX 2015">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <Text layoutX="47.0" layoutY="345.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Motor 1.8L, Automático">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text layoutX="47.0" layoutY="324.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Toyota Corolla S 2014">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <Separator layoutX="14.0" layoutY="141.0" prefHeight="33.0" prefWidth="739.0" />
+            <Text fill="WHITE" layoutX="30.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nuestros Autos..." textAlignment="CENTER">
+               <font>
+                  <Font name="Berlin Sans FB" size="27.0" />
+               </font>
+            </Text>
+            <Pane layoutY="9.0" prefHeight="91.0" prefWidth="764.0" style="-fx-background-color: #708090;">
+               <children>
+                  <ImageView fitHeight="69.0" fitWidth="141.0" layoutX="1.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@TypeR.png" />
+                     </image>
+                  </ImageView>
+                  <Text fill="RED" layoutX="111.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Trend Motors">
+                     <font>
+                        <Font name="System Bold Italic" size="32.0" />
+                     </font>
+                  </Text>
+                  <Button fx:id="btninicio1" layoutX="597.0" layoutY="32.0" mnemonicParsing="false" onAction="#inicio1" prefHeight="33.0" prefWidth="73.0" text="Inicio" textAlignment="CENTER">
+                     <font>
+                        <Font name="System Bold Italic" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="684.0" layoutY="32.0" mnemonicParsing="false" onAction="#salir" prefHeight="33.0" prefWidth="73.0" text="Salir" textAlignment="CENTER">
+                     <font>
+                        <Font name="System Bold Italic" size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </Pane>
+         </children>
+        </Pane>
+    </children>
+</GridPane>
